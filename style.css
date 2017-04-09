@@ -1,0 +1,7 @@
+td,tr,table,th{border: solid 1px black;}
+body{background: #66ddff;}
+td,th{width: 10%; height:10%;}
+table{width: 50%;height: 50%;text-align: center;}
+.head{font-size: 40px;}
+a{color: #ffffff;text-decoration: none;}
+a:hover{color: black;}
