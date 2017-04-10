@@ -50,6 +50,11 @@ $editClassid = mysqli_fetch_assoc($getClassid);
         <?php
             echo "提示:不可以修改主键 学号的值"."<br/>";
             echo $getageSql,$getnameSql,$getclassidSql,$getsexSql."<br/>";
+            mysqli_free_result($getAge);
+            mysqli_free_result($getName);
+            mysqli_free_result($getClassid);
+            mysqli_free_result($getSex);
+            mysqli_close($editLink);
             echo "执行结果:OK!";
         ?>
     </p>

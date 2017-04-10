@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="a8f3c158-6da5-4723-a3b6-9d56f08b0814" name="built" url="http://localhost/demo">
+      <webServer id="a8f3c158-6da5-4723-a3b6-9d56f08b0814" name="built" url="http://localhost/demo/V-DM">
         <fileTransfer accessType="LOCAL" />
       </webServer>
     </option>

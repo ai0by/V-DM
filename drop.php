@@ -23,10 +23,11 @@ if(!is_numeric($dropId)){
 }
 
 $dropSql = "delete from stu where id=$dropId;";
-echo $insertSql;
+echo $dropSql;
 $dropResult = mysqli_query($dropLink,$dropSql);
 
-
+mysqli_free_result($dropResult);
+mysqli_close($dropLink);
 echo "OK!"."<br/><a href = \"table.php\">返回</a>";
 
 ?>

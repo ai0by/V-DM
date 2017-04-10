@@ -69,7 +69,6 @@ $result = mysqli_query($link,$sql);
 <center>
     <div class="panel panel-default">
     <div class="panel-body">
-        <div class="panel-heading">学生信息表</div>
         <table class="table col-md-12">
             <thead><tr><th>姓名</th><th>年龄</th><th>学号</th><th>性别</th><th>班级</th><th>操作</th></tr></thead>
             <tbody>
