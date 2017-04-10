@@ -32,7 +32,6 @@ echo $editSql;
 $editResult = mysqli_query($editdataLink,$editSql);
 
 
-mysqli_free_result($editResult);
 mysqli_close($editdataLink);
 
 echo "OK!"."<br/><a href = \"table.php\">返回</a>";
