@@ -32,7 +32,6 @@ echo $insertSql;
 $insertResult = mysqli_query($dataLink,$insertSql);
 
 
-mysqli_free_result($insertResult);
 mysqli_close($dataLink);
 
 echo "OK!"."<br/><a href = \"table.php\">返回</a>";

@@ -45,7 +45,6 @@ $editClassid = mysqli_fetch_assoc($getClassid);
             <tr><td colspan="2"><input type="submit" value="确认修改"></td></tr>
         </form>
     </table>
-    <a href="table.php">返回</a>
     <p>
         <?php
             echo "提示:不可以修改主键 学号的值"."<br/>";
@@ -58,5 +57,6 @@ $editClassid = mysqli_fetch_assoc($getClassid);
             echo "执行结果:OK!";
         ?>
     </p>
+        <a href="table.php">返回主页</a> \ <a href="https://www.sbcoder.cn">风向标</a> \ Github
 </center>
 </body>

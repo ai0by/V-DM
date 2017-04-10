@@ -62,6 +62,8 @@
         </div>
         </form>
     </div>
-    <a href="table.php">返回</a>
+    <center>
+    <a href="table.php">返回主页</a> \ <a href="https://www.sbcoder.cn">风向标</a> \ Github
+    </center>
 </div>
 </body>

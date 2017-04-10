@@ -98,7 +98,7 @@ $result = mysqli_query($link,$sql);
 
     </div>
     </div>
-    <a href="add.php">添加信息</a>|<a href="search.php">查询信息</a>
+    <a href="table.php">返回主页</a> \ <a href="https://www.sbcoder.cn">风向标</a> \ Github
 </center>
 </div>
 </body>

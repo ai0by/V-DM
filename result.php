@@ -64,7 +64,6 @@ while($Result=mysqli_fetch_assoc($searchResult)) {
     echo "姓名:{$Result["name"]} 年龄:{$Result["age"]} 学号:{$Result["id"]} 性别:{$Result["sex"]} 班级:{$Result["classid"]}<br/>";
 }
 
-mysqli_free_result($searchResult);
 mysqli_close($searchLink);
 
 echo "<br/>"."OK!"."<br/><a href = \"table.php\">返回</a>";
