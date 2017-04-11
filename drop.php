@@ -26,6 +26,7 @@ $dropSql = "delete from stu where id=$dropId;";
 echo $dropSql;
 $dropResult = mysqli_query($dropLink,$dropSql);
 
+var_dump($dropResult);
 mysqli_close($dropLink);
 echo "OK!"."<br/><a href = \"table.php\">返回</a>";
 
